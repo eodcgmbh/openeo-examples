@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "openeo-examples"
+version = "0.1.0"
+description = ""
+authors = ["sean <sean.hoyal@external.eodc.eu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+openeo = "^0.27.0"
+eodc = "^2024.2.5"
+ipykernel = "^6.29.1"
+folium = "0.15.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
