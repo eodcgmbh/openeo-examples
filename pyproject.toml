@@ -2,11 +2,11 @@
 name = "openeo-examples"
 version = "0.1.0"
 description = ""
-authors = ["sean <sean.hoyal@external.eodc.eu>"]
+authors = ["Sean Hoyal <sean.hoyal@external.eodc.eu>, "Valentina Hutter <valentina.hutter@eodc.eu>", "Gerald Irsiegler <gerald.irsiegler@eodc.eu>", "Tobias Stachl <tobias.stachl@eodc.eu>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.11,<3.12"
+python = ">=3.11,<3.13"
 openeo = "^0.27.0"
 eodc = "^2024.2.6"
 ipykernel = "^6.29.1"
