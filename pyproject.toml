@@ -6,7 +6,7 @@ authors = ["Sean Hoyal <sean.hoyal@external.eodc.eu>", "Valentina Hutter <valent
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.11,<3.13"
+python = ">=3.11,<3.12"
 openeo = "^0.27.0"
 eodc = "^2024.2.6"
 ipykernel = "^6.29.1"
