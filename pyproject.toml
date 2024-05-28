@@ -11,6 +11,10 @@ openeo = "^0.27.0"
 eodc = "^2024.2.6"
 ipykernel = "^6.29.1"
 folium = "0.15.0"
+matplotlib = "^3.9.0"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
 
 [build-system]
 requires = ["poetry-core"]
